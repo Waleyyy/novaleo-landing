@@ -17,7 +17,6 @@ python -m http.server 8777
 
 ## Before going live
 
-- Replace `REPLACE-WITH-LIVE-DOMAIN` in `index.html` (the `og:url` and `og:image` tags).
 - Bump the `?v=N` on `css/style.css` and `js/main.js` on every deploy. There is no content hashing, so
   returning visitors otherwise keep the old files.
 - A privacy notice for the waitlist. The form collects e-mail addresses from students, so GDPR needs one; it can
